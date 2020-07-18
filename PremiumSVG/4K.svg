@@ -1,0 +1,5 @@
+                <svg width="40" height="26" xmlns="http://www.w3.org/2000/svg" class="featureIcon" style="color: rgb(229, 9, 20); fill: rgb(229, 9, 20);">
+                    <path
+                        d="M11 24v-5.056H0v-3.232L11 2h4v13.424h3v3.52h-3V24h-4zm-6.656-8.576h6.636V7.136l-6.636 8.288zM21 24V2h3.985v8.752L34.23 2h5.228L28.906 12.384 40 24h-5.643l-9.372-9.472V24H21z"
+                        fill-rule="nonzero"></path>
+                </svg>

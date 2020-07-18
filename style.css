@@ -1,0 +1,137 @@
+/* COLORS */
+:root {
+    --first-color: #E50914;
+    --secound-color: #AC1456;
+    --three-color: #076BC1;
+    --four-color: #0071EB;
+    --five-color: #3f3f3f;
+}
+/* FONTS */
+:root {
+    --google-font: 'Roboto', sans-serif;
+    --google2-font: 'Poppins', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--google-font);
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+.pricing-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: min(1600px, 100%);
+}
+.pricing-card {
+    flex: 1;
+    left: 50px;
+    margin: 20px 10px;
+    text-align: center;
+    box-shadow: 0 1px 10px rgba(0,0,0,.2);
+    transition: .3s linear;
+    position: relative;
+    top: -10px;
+}
+
+.pricing-card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.price {
+    position: relative;
+    bottom: -40px;
+    left: 10px;
+    color: var(--five-color);
+    margin-top: -40px;
+    float: left;
+    font-family: var(--google2-font);
+}
+.svg {
+    margin-top: 30px;
+    padding: 10px;
+}
+span {
+    color: var(--five-color);
+}
+
+h3 {
+    position: absolute;
+    float: left;
+    top: 10px;
+    left: 10px;
+    font-size: 22px;
+    font-family: var(--google2-font);
+}
+ul {
+    font-size: 13px;
+    text-align: left;
+    padding: 10px;
+    display: block;
+}
+
+ul .premium::before {
+    display: inline-block;
+    content: ' ';
+    background-image: url('Check-iconsSVG/red.svg');
+    background-size: 19px 45px;
+    height: 29px;
+    width: 20px;
+}
+ul .standerd::before {
+    display: inline-block;
+    content: ' ';
+    background-image: url('Check-iconsSVG/pink.svg');
+    background-size: 19px 45px;
+    height: 29px;
+    width: 20px;
+}
+ul .basic::before {
+    display: inline-block;
+    content: ' ';
+    background-image: url('Check-iconsSVG/blue.svg');
+    background-size: 19px 45px;
+    height: 29px;
+    width: 20px;
+}
+input {
+    cursor: pointer;
+}
+.buy {
+    position: relative;
+    top: 140px;
+    right: 600px;
+    background-color: var(--first-color);
+    border: none;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+}
+.buy span {
+    text-align: center;
+    position: relative;
+    left: 13px;
+    top: 8px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    font-family: var(--google2-font);
+    
+}
+.buy:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #F6121D;
+}
+small {
+    padding-left: 100px;
+    margin-bottom: 200px;
+}
+small a {
+    color: var(--four-color);
+}
